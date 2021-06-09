@@ -1,0 +1,16 @@
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #05b67b;
+  color: #ff6200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 150px;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=rating.css.map */
