@@ -3,3 +3,6 @@ index.html
 .vscode/settings.json
 css/styles.css
 js/script.js
+.gitignore
+.vscode
+exercici.txt

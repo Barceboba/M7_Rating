@@ -1,9 +1,36 @@
+
+
 body {
     align-items: center;
     background: rgb(5, 182, 123);
     color: rgb(255, 98, 0);
     display: flex;
     font-size: 150px;
-    height: 100vh;
+    height: calc(100vh - .4em);
     justify-content: center;
   }
+
+  .estrelles {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  
+  
+  }
+  .estrella {
+    padding: 30px;
+    text-shadow: 5px 5px 4px rgba(28,110,164,0.71);
+
+  }
+
+.color1 {
+  color: aquamarine;
+}
+
+color2 {
+  color: mediumvioletred;
+}
+
+

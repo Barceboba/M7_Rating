@@ -8,9 +8,36 @@ body {
   display: -ms-flexbox;
   display: flex;
   font-size: 150px;
-  height: 100vh;
+  height: calc(100vh - .4em);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.estrelles {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.estrella {
+  padding: 30px;
+  text-shadow: 5px 5px 4px rgba(28, 110, 164, 0.71);
+}
+
+.color1 {
+  color: aquamarine;
+}
+
+color2 {
+  color: mediumvioletred;
 }
 /*# sourceMappingURL=rating.css.map */
