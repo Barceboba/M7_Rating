@@ -4,7 +4,7 @@ const sortida = document.querySelectorAll('.sortida');
 for (i = 0; i < estrelles.length; i++) {
     estrelles[i].valorEstrella = (i + 1)
     //estrelles[i].addEventListener('click', function(){
-    ['click', 'mouseover', 'mouseout', ''].forEach(function (e) {
+    ['click', 'mouseover', 'mouseout', ''].forEach(function(e) {
         estrelles[i].addEventListener(e, mostraRating);
     })
 }
