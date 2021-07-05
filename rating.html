@@ -5,29 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Miquel Martín Pradell">
-    <title>Rating Nivell 1</title>
+    <title>Rating Nivell 1-2-3</title>
     <!--Estils propis-->
     <link rel="stylesheet" href="css/rating.css">
+    <!--Reset-->
+    <link rel="stylesheet" href="css/reset.css">
     <!--Font awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
+    <script src="https://kit.fontawesome.com/67002f2c96.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class='container'>
-        <ul class="estrelles">
-            <li class='estrella'><i class="fa fa-star"></i></li>
-            <li class='estrella'><i class="fa fa-star"></i></li>
-            <li class='estrella'><i class="fa fa-star"></i></li>
-            <li class='estrella'><i class="fa fa-star"></i></li>
-            <li class='estrella'><i class="fa fa-star"></i></li>
+   <div class="container-fluid" id="container-ok">
+		
+		<div class="row">
+			<div class="col rating-system" id="rating-area">
+				<!-- 5 icones -->
+				<input type="radio" name="rate" id="rate-5">
+				<label for="rate-5" class="fas fa-grin-stars"></label>
+
+				<input type="radio" name="rate" id="rate-4">
+				<label for="rate-4" class="fas fa-smile"></label>
+
+				<input type="radio" name="rate" id="rate-3">
+				<label for="rate-3" class="fas fa-meh-blank"></label>
+
+				<input type="radio" name="rate" id="rate-2">
+				<label for="rate-2" class="fas fa-meh"></label>
+
+				<input type="radio" name="rate" id="rate-1">
+				<label for="rate-1" class="fas fa-frown"></label>
+			</div>
+		</div>
+	</div>
 
 
 
-        </ul>
 
-
-
-    </div>
+    
     <script src='/js/ratingdos.js'></script>
     
 </body>

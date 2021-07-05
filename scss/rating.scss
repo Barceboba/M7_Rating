@@ -1,36 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
 
-
+html,
 body {
-    align-items: center;
-    background: rgb(5, 182, 123);
-    color: rgb(5, 182, 123);
-    display: flex;
-    font-size: 150px;
-    height: calc(100vh - .4em);
-    justify-content: center;
-  }
-
-  .estrelles {
-  cursor: pointer;
   display: flex;
-  justify-content: center;
+  height: 100%;
   align-items: center;
-  list-style: none;
-  
-  
-  }
-  .estrella {
-    padding: 30px;
-    text-shadow: 5px 5px 4px rgba(28,110,164,0.71);
-
-  }
-
-.color1 {
-  color: aquamarine;
+  justify-content: center;
+  background: #0eeba9;
+  height: calc(100vh - 1px);
+  position: relative;
 }
 
-color2 {
-  color: mediumvioletred;
+input {
+  display: none;
 }
 
+.fas {
+  font-size: 120px;
+  color: #0d1683;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  float: right;
+}
+
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+  color: #bb2f75;
+}
+input:checked ~ label {
+  color: #f0087c;
+}
 
